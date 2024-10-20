@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BK_CSS.css">
+    <link rel="stylesheet" href="mobileL.css">
+    <link rel="stylesheet" href="mobileS.css">
+    <link rel="stylesheet" href="Tablet.css">
+    <link rel="stylesheet" href="mobileM.css">    
+</head>
+<body>
+    
+    <div class="hero">
+        <nav class="nav-section container flex">
+            <div class="website-logo">
+                <img class="LogoImg" src="images/Logo.png" alt="home page image">
+            </div>
+
+            <div class="menus flex" id="menus">
+                <ul class="flex">
+                    <li><strong><a class="hover-menu" href="index.html">Home</a></strong></li>
+                    <li><strong><a class="hover-menu" href="olympic_location_intro.html">Games</a></strong></li>
+                    <li><strong><a class="hover-menu" href="Big_news.html">News</a></strong></li>
+                    <li><strong><a class="hover-menu" href="">Ticket Booking</a></strong></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-menu">
+                <img class="Bars" id="menutoggle" src="images/menuBars.png" alt="">
+            </a>
+        </nav>
+
+        
+    </div>
+
+
+
+        <section class="online-booking">
+            <div class="sec-seven container flex">
+                <div class="upper-div flex">
+                    <img src="images/sub-logo.png" alt="">
+                     <h3>Online Booking</h3>
+                </div>
+                <div class="lower-div flex">
+                    <div class="Ticketing flex">
+                        <h5> Ticketing </h5>
+                        <h2>India 2024 ticket prices</h2>
+                        <p>Single ticket prices for the opening and closing ceremonies range 
+                            from JPY 12,000 (INR 7,852) to JPY 300,000 (INR 1,96,300), while group tickets are at JPY 2,020 (INR 1,322), and wheelchair tickets cost between JPY 12,000 (INR 7,852) to JPY 45,000 (INR 29,445*).</p>
+                            <a href="payment.html">
+                                 <input class="Play-btn" type="button" name="search-btn" value="Buy Now">
+                            </a>
+                        </div>
+                    
+                    <div class="Hospitality Ticketing flex"> 
+                        <h5> Hospitality </h5>
+                        <h2>India 2024 ticket prices</h2>
+                        <p>Fans and stakeholders will have access to unique ticket-inclusive travel and hospitality experiences through one official, exclusive hospitality provider.</p>
+                        <a href="https://hospitalitytravelpackages.paris2024.org/discover/tickets-plus-hospitality/information?utm_source=P24_Web_EN&utm_medium=Hospitality_package&utm_campaign=P24_HP_TKT&utm_id=&utm_content=Website_P24">
+                             <input class="Play-btn" type="button" name="search-btn" value="Buy Now">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="foot container flex">
+            <p>@ Designed and Developed by --- VIKAS SURYAKANT KHANDEKAR</p>
+            </div>
+        </footer>
+
+   
+<script>
+
+    const toggleButton=document.getElementById('menutoggle');
+    const navLink=document.getElementById('menus');
+
+    toggleButton.addEventListener('click',()=> {
+        navLink.classList.toggle('active');
+    })
+</script>
+
+</body>
+</html>

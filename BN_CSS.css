@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:#ffffff;
+    --secondary-text-color:#000000;
+    --sub-text-color:#484848;
+    --section-front-title:#4870FF;
+    --section-BG-title:#ffb70092;
+    --button-color:#FFB800;
+    --padding-inline-section:20px
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:var(--secondary-text-color);
+}
+
+h1{
+    font-size: 6rem;
+    color: #ffffff;
+    text-shadow: 5px 5px #b5b5b528;
+}
+
+h2{
+    font-size: 2rem;
+    color:black;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 3.9rem;
+    color: var(--section-front-title);
+    font-weight: 700;
+}
+h4{
+    font-size: 1.2rem;
+    color:black;
+    font-weight: 300;
+}
+
+h5{
+    font-size: 3rem;
+    color:white;
+    font-weight: 700;
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight:700;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.35rem;
+    color:black;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    font-size: 1.2rem;
+   
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    overflow: hidden;
+    /* background-color: #180707c2; */
+    padding-inline:var(--padding-inline-section) ;
+} 
+
+.hover-menu{
+  
+    color: var(--primary-text-color);
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+
+.hover-menu:hover{
+    color: #f5f900;
+    border-bottom:3px solid #f5f900;
+   
+}
+
+.nav-toggle{
+    display: none;
+}
+.hero{
+    background-image: url(images/imgmain.png);
+    /* background-color: #4870FF; */
+    background-size: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+}
+
+.nav-section{
+    justify-content: space-between;
+    top: 30px;
+    position: relative;
+    background-color: #0000002f;
+    border-radius: 10px;
+}
+
+.website-logo{
+    width: 50px;
+}
+
+.menus{
+    flex-basis:730px ;
+}
+.menus ul{
+    margin-left: 180px;
+    justify-content: end;
+    gap: 70px;
+}
+
+header{
+    margin-top: 160px;
+}
+
+.header-section{
+    gap: 45px;
+    justify-content: center;
+}
+
+.horizontal-line img{
+    width: 10px;
+}
+
+.header-text{
+    flex-direction: column;
+  
+}
+
+
+
+    /* Section 5 */
+    .big-news-section{
+
+        margin-top: -460px;
+    }
+
+    .sec-five{
+        gap: 30px;
+        /* background-color: #4870FF; */
+    }
+
+    .left-part {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .left-part p{
+       text-align: justify;
+       color:white !important;
+    }
+/* 
+    .left-part new-p{
+        line-height:65px;
+        color: #000000 !important;
+     } */
+
+    .right-part img{
+        width: 660px;
+        height: 380px;
+        align-items: end;
+      
+    }
+
+
+    .Play-btn{
+        width: 143.7px;
+        height: 45px;
+        background:#343434;
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+        border: none;
+        margin-top: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+        word-wrap: break-word;
+        cursor: pointer;
+        /* transition: 0.1s ease-in; */
+    
+    }
+    .Play-btn:hover{
+       
+        background:#073dff;
+        background-image: url(images/Sec4BG.png);
+        color:#b4b4b4;
+        box-shadow: 0 0 10px #020202;
+    }
+
+    /* Section six */
+
+    .blogs-section{
+        margin-top: 90px;
+        
+
+    }
+
+    .sec-six{
+        /* background-color: #000000; */
+        flex-direction: column;
+        row-gap: 15px;
+        background-image: url(images/Global_Map.png);
+        background-size: cover;
+        background-repeat:no-repeat;
+       
+
+    }
+    .first-part h3{
+        color:#073dff; 
+        text-shadow: 0 0 10px #ffffff;
+     
+    }
+
+    .msg-box{
+        background-color: #4870ff46;;
+        border-radius: 15px;
+        backdrop-filter: blur(3px);
+        position: relative;
+        width: 100%;
+        min-height: 30%;
+        padding: 25px;
+    }
+
+    .second-part h2{
+        font-size: 1.4rem;
+        color:black;
+        font-weight: 600;
+    }
+
+    .second-part p{
+       color:black;
+       
+    }
+
+    
+    footer{
+        height: 100px;
+        margin-top: 60px;
+        width: 1510px;
+        
+        background-color: #000d3b;
+    }
+
+    .foot{
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .foot p{
+        margin-top: 35px;
+    }
