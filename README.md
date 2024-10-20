@@ -48,7 +48,7 @@ Use the navigation bar to move between different pages.
 📷 Screenshots
 
 Homepage
-
+https://github.com/vikaskhandekar7083/OLYMPIC-WEB/blob/master/Screenshots/Screenshot%202024-10-18%20102641.png
 
 Athletes Page
 
