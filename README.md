@@ -51,7 +51,7 @@ Homepage
 https://github.com/vikaskhandekar7083/OLYMPIC-WEB/blob/master/Screenshots/Screenshot%202024-10-18%20102641.png
 
 Athletes Page
-https://github.com/vikaskhandekar7083/OLYMPIC-WEB/blob/master/Screenshots/Screenshot%202024-10-18%20102641.png
+https://github.com/vikaskhandekar7083/OLYMPIC-WEB/blob/master/Screenshots/Screenshot%202024-10-18%20102724.png
 
 🤝 Contributing
 Contributions are welcome! 🎉 If you find any bugs 🐛 or have suggestions 💡 for new features, feel free to create an issue or submit a pull request.
